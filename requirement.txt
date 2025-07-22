@@ -1,0 +1,2 @@
+opeencv-contrib-python
+caer
