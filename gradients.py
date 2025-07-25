@@ -35,4 +35,7 @@ cv.imshow("Canny",canny)
 
 
 
+
+
+
 cv.waitKey(0)
