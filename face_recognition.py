@@ -15,7 +15,7 @@ for i in os.listdir(r'C:\Users\Asif\Downloads\train'):
     persons.append(i)
 
 
-img = cv.imread(r'C:\Users\Asif\Downloads\opencv-course-master.zip\opencv-course-master\Resources\Faces\val\ben_afflek\3.jpg')
+img = cv.imread("Photos/fuv1.jpg")
 
 
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
@@ -32,3 +32,4 @@ for (x,y,w,h) in faces_rect:
 cv.imshow("Detected Faces",img)
 
 cv.waitKey(0)
+
